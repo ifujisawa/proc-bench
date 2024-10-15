@@ -1,1 +1,0 @@
-Append the string $1$ to the string $2$, and return the resulting string.

@@ -1,1 +1,0 @@
-Return "true" if the characters $1$ and $2$ are the same, or "false" otherwise.

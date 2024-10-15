@@ -1,1 +1,0 @@
-Return the character at the index of $1$ in the string $2$ in the context of 0-based indexing. 

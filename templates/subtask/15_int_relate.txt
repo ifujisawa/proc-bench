@@ -1,1 +1,0 @@
-Return "same" if $1$ is equal to $2$, or the larger number otherwise.
