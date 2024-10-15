@@ -1,0 +1,1 @@
+Return "true" if the symbol $1$ is an integer, or "false" if it's a character.

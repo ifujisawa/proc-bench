@@ -1,0 +1,6 @@
+Concatenate given strings in a string list according to the order specified by a given list of indices.
+Prepare an empty string.
+At each step, append the string specified by the index in 0-based indexing, starting from the first element of the index list.
+Repeat the step until the end of the list.
+Provide the final string along with the intermediated strings after each step in a list.
+Do not include the initial state and final state in the list of intermediate states. 

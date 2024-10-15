@@ -1,0 +1,7 @@
+Replace characters in a given string according to a given list of character pairs step by step as follows.
+Start from the first character in the string.
+At each step, if the current target character matches the first element of any pairs in the list, replace the character with the second element of the pair. Then, move on to the next character in the string.
+Repeat the step until the end of the string.
+
+Provide the final string along with the intermediate strings after each step in a list.
+Do not include the initial state and final state in the list of intermediate states. 

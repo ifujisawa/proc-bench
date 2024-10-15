@@ -1,0 +1,7 @@
+Extract substrings from given strings according to a given list of sets of numbers (N, i, n) step by step.
+Start with an empty string.
+For each number set, extract n characters starting from the i-th character of the N-th string with N and i being in 0-based indexing, and append the extracted substring to the string.
+Repeat the process until the end of the list starting from the first element of the list.
+
+Provide the final string along with the intermediate strings after each process in a list.
+Do not include the initial state and final state in the list of intermediate states. 

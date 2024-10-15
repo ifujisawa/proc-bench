@@ -1,0 +1,3 @@
+Remove letters in a given list from a given string step by step; at each step remove a single letter starting from the first element of the list.
+Provide the final string along with the intermediate states after each step in the form of a list.
+Do not include the initial state and final state in the list of intermediate states. 

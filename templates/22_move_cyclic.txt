@@ -1,0 +1,5 @@
+Move "x" in a given array consisting of "x" and "-" following a list of operations, where the operation is given as a pair of the direction, left or right, and the amount of movement.
+If "x" reaches the beginning of the array, move it to the end, and vice versa. 
+
+Provide the final state of the array and the intermediate states after each movement in a list.
+Do not include the initial state and final state in the list of intermediate states. 

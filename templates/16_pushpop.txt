@@ -1,0 +1,8 @@
+Remove characters from a given string or add characters to the string following a given list of actions, where the actions are defined as
+pop_left: remove the leftmost character in the string
+pop_right: remove the rightmost character in the string
+push_left(A): add A to the left side of the string
+push_right(A): add A to the right side of the string
+
+Provide the final string after applying the all actions along with the intermediate strings after applying each action.
+Do not include the initial state and final state in the list of intermediate states. 

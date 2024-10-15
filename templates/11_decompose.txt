@@ -1,0 +1,6 @@
+Starting from a given string of characters, continue to replace each character following a given list of rules for the replacement until no further replacement is possible. The rule is given in the form of "A -> BC", which means if you find "A", replace it with "B" and "C".
+For each step, scan from the leftmost character and if a rule-matching character is found, apply the replacement and stop the scan.
+Save each replacement result as an intermediate state, and repeat until no more rule-matching replacement is possible.
+
+Provide the final state along with the intermediate states in a list.
+Do not include the initial state and final state in the list of intermediate states. 

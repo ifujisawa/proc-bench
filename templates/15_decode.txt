@@ -1,0 +1,4 @@
+Decode a given set of compressed representations in the form of AxB, where B is the number of consecutive occurrences of the character A.
+Starting from the first piece and an empty string, decode each piece by repeating the character A for the specified number of times B, and append the decoded result to the string. Repeat the decoding for the all pieces.
+Provide the final string along with the intermediate strings after decoding each piece in a list.
+Do not include the final state in the list of intermediate states.

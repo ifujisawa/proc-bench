@@ -1,0 +1,7 @@
+Sort a given string into alphabetical order step by step by swapping two characters.
+Starting with the first alphabet in alphabetical order 'a' and the first position of the string, repeat the following process until the end of the alphabetical order 'z'. 
+At each step, search for the alphabet in the string from left to right. If you find it, swap it with the character at the current position. Then, move to the next position of the string. If the alphabet is not found, do nothing.
+Repeat the step until the whole string has been searched, and move on to the next alphabet.
+
+Provide the final sorted string along with the intermediate strings after each swap in a list ignoring the steps with no change. 
+Do not include the initial state and final state in the list of intermediate states. 

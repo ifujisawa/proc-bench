@@ -1,0 +1,1 @@
+Swap the two characters at indices $1$ and $2$ (0-based indexing) in the string $3$, and return the resulting string.

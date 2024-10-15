@@ -1,0 +1,7 @@
+Count the occurrences of substrings in each given string step by step:
+Start with an initial counting list with zeros, where each element correponds to the count for each string.
+For each substring, count the occurrences of the substring in each string, and add the occurrences to counts in the counting list.
+Repeat the step for all substrings starting from the first substring in the given list. 
+                                                                      
+Provide the final counting list along with the intermediate states in a 2D array, where each row includes the counting list after each step.
+Do not include the initial state and final state in the list of intermediate states. 

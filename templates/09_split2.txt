@@ -1,0 +1,7 @@
+Split a given string at specified positions, which are given by a list of index pairs in the form of (i, j) in 0-based indexing.
+Consider only the characters that appeared in the original text and do not count the delimiters that occurred during the splitting procedure.  
+Starting from the first pair in the list, split the i-th substring at j-th position into two substrings; one consists of the characters from index of 0 to j-1 and the other consists of the remaining characters.
+Repeat the splitting for all the index pairs.
+
+Provide the final list of substrings along with the intermediate lists in the form of a 2D array, where each row includes the list after each splitting.
+Do not include the initial state and final state in the list of intermediate states. 

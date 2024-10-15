@@ -1,0 +1,5 @@
+Encode a given string composed of '0's and '1's by following the procedure below.
+Starting from the beginning of the string, count the number of the same character in series, and record the result in the form of "the character"_"the number of the character" at each step.
+Repeat this step until the end of the string.
+Provide the final result string along with the intermediate states in a 2D array, where each row has the list of the encoded results after each step.
+Do not include the initial state and final state in the list of intermediate states. 

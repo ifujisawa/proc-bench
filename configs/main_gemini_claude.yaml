@@ -1,0 +1,12 @@
+exp_name: main
+task_names: 
+prompt_idxs: 
+models: [
+  gemini-1.5-pro-latest,
+  claude-3-5-sonnet-20240620,
+] # None or List[str]
+resume_model: 0 # Resume idx when models is None
+system: 
+max_tokens: 8192
+seed: 12 # uniquness of problems is not guaranteed for different seeds
+num_workers: 100

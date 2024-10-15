@@ -1,0 +1,1 @@
+Return the $1$-th element of the list $2$ in 0-based indexing.

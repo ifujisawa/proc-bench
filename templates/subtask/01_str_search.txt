@@ -1,0 +1,1 @@
+Return the starting index of the substring $1$ (0-based indexing) in the sequence $2$. 

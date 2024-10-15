@@ -1,0 +1,11 @@
+exp_name: main
+task_names: 
+prompt_idxs: 
+models: [
+  o1-mini-2024-09-12
+] # None or List[str]
+resume_model: 0 # Resume idx when models is None
+system: 
+max_tokens: 65536
+seed: 12 # uniquness of problems is not guaranteed for different seeds
+num_workers: 100

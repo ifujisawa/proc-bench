@@ -1,0 +1,5 @@
+Given a list of pairs of numbers and words, replace the number with a bracket in a given sentence with the word one by one. 
+
+Provide the final sentence after filling the all numbers along with a list of the intermediate sentences after replacing each number.
+The answer should consist only of alphanumeric characters, and except for "[1]", "[2]", etc., no punctuation such as periods is included.
+Do not include the initial state and final state in the list of intermediate states. 

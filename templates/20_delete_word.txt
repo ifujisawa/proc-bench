@@ -1,0 +1,3 @@
+Remove words in a give list from a given sentence step by step; at each step remove a single word starting from the first element of the list.
+Provide the final sentence along with the intermediate states after each step in the form of a list.
+Do not include the initial state and final state in the list of intermediate states. 

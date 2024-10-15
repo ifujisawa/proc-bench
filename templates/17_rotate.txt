@@ -1,0 +1,4 @@
+Rotate a substring within a string by partitioning characters from original string's index m to n - 1, where the indices m and n are given in the form of (m, n) in 0-based indexing.
+For each index pair, shift every character within the partitioned substring to the right by one, and wrap the right-most character around to the beggining of the substring.
+Provide the final string along with the intermediate states after each step in a list.
+Do not include the initial state and final state in the list of intermediate states. 

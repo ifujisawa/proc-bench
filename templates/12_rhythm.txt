@@ -1,0 +1,9 @@
+Given two sequences, where one is composed of numbers and the other is of characters, form pairs of a number and a character extracted from the sequences, respectively, in the form of a string.
+Then, follow the procedure below.
+Initialize an empty string and start from the first element of each sequence.
+At each step, append the number and then the character obtained from the sequences to the string, and move to the next elements in both sequences.
+If the end of either sequence is reached, wrap around to the beginning.
+Repeat the process for N steps.
+
+Provide the final string along with all the intermediate strings in a list.
+Do not include the initial state and final state in the list of intermediate states. 

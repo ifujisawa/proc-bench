@@ -1,0 +1,8 @@
+Make calculations in a specific manner as follows:
+
+For each string, count the number of alphabets and encode it as N1, then concatenate all numeric characters in the order of apperance to form a single number N2. If no numeric character is included, let the number be zero.
+Then, calculate the product of N1 and N2, which is N3.
+Repeat the calculation for all substrings, starting from the first string.
+
+Provide the sum of all N3 values along with the intermediate results in a 2D array, where each row includes the list [string, N1, N2, N3] for each substring.
+Do not include the final state in the list of intermediate states.

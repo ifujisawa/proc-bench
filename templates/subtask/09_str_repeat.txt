@@ -1,0 +1,1 @@
+Create a string by repeating the character "$1$" for $2$ times, and return the resulting string.

@@ -1,0 +1,1 @@
+Extract the substring of length $1$ starting from the index $2$ (0-based indexing) of the string $3$, and return the extracted substring.

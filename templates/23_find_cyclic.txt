@@ -1,0 +1,8 @@
+Find a letter in a given string step by step that is a specified number of positions to the right of a given letter.
+The characters in the given string can be digits and lower alphabets.
+At each step, move one letter to the right and decrease the number by one starting from the given letter and number, wrapping around to the beginning of the string if necessary. 
+Repeat the step until the number gets to zero.
+
+Provide the found state as the found letter only, and provide the intermediate states in a list, which are defined by pairs of the letter and the number at the step including the given pair.
+THe format of the intermediate states is [character in the string, number indicating step].
+Do not include the initial state and final state in the list of intermediate states.

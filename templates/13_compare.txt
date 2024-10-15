@@ -1,0 +1,7 @@
+Given a target string, compare it to each string in a list following this procedure:
+Start by selecting the first string in the list as the candidate. Compare the characters of the target string and the candidate string one by one, starting from the first character. If the characters match, continue to the next character. If the characters do not match, stop the comparison and recognize the substring formed by the matching characters as an intermediate state. Continue this process for each string in the list until you find an exact match with the target string. Once an exact match is found, stop comparing further strings.
+The output consists of:
+Intermediate states showing the substrings of each partially matched candidate.
+A final state which includes all partially matched substrings and the fully matched string.
+Do not include the final state in the list of intermediate states.
+

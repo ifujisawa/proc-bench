@@ -1,0 +1,5 @@
+Replace two characters following a given list of rules for the replacement until no further replacement is possible. The rule is given in the form of (A, B -> C), which means if you find A and B sequentially in this order, replace them with C; you should not replace B and A with C. 
+Apply the replacement step by step from right to left of a given list as the initial state. 
+
+Provide the final state along with the intermediate states, where the intermediate states contain each state after each replacement.
+Do not include the initial state and final state in the list of intermediate states. 
