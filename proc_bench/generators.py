@@ -1051,7 +1051,7 @@ class GeneratorCountv3(BaseGenerator):
             
             if self.num_words == len(words):
                 break
-        words = list(sentence)
+        words = list(set(sentence))
 
         intermediates = []
         self.alphabet_counts = defaultdict(int, {char: 0 for char in string.ascii_lowercase})
