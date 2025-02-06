@@ -98,7 +98,7 @@ def main(args):
     gt_df = pd.concat([gt_df, dummies], axis=1)
 
     for _, row in gt_df.iterrows():
-        path_dst = save_dir / 'level' / row.len_category / 'dataset' / row.task_name / 'label' / row.path_gt.name
+        path_dst = save_dir / 'level' / str(row.len_category) / 'dataset' / row.task_name / 'label' / row.path_gt.name
         path_dst.parent.mkdir(exist_ok=True, parents=True)
         copy2(row.path_gt, path_dst)
         print('copy', row.path_gt, '\n -->', path_dst)
